@@ -1,0 +1,10 @@
+# ninja log v5
+33	1148	7559914018795205	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	538baafe965fe4a8
+19	1171	7559914018795205	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5273119178ffb631
+47	1178	7559914019066793	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	f2cd185965cf92d
+12	1179	7559914018900768	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3993a357abdef185
+57	1263	7559914020017610	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	80af8be17c2c5546
+6	1313	7559914020510106	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	a5e929f670d24cd4
+25	1491	7559914022295951	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	1f027a75f6c885a7
+0	1596	7559914023321683	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4df51842c43a8129
+1596	1704	7559914024488897	C:/Users/Admin/Traffic lights AR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3y503434/obj/arm64-v8a/libgame.so	40f30b25ec0d0780
