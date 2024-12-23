@@ -1,0 +1,1095 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.31f1 (a206c360e2a8) revision 10618563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Admin/Traffic lights
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+63612
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Admin/Traffic lights
+C:/Users/Admin/Traffic lights
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25036]  Target information:
+
+Player connection [25036]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1956395669 [EditorId] 1956395669 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HLDMFFU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25036]  * "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 1956395669 [EditorId] 1956395669 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HLDMFFU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25036] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.31f1 (a206c360e2a8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Traffic lights/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002533 seconds.
+- Loaded All Assemblies, in  0.286 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 531ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5918 unused Assets / (4.5 MB). Loaded Objects now: 6587.
+Memory consumption went from 155.2 MB to 150.7 MB.
+Total: 6.734600 ms (FindLiveObjects: 0.508800 ms CreateObjectMapping: 0.577100 ms MarkObjects: 3.857100 ms  DeleteObjects: 1.790900 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5914 unused Assets / (4.4 MB). Loaded Objects now: 6602.
+Memory consumption went from 138.7 MB to 134.3 MB.
+Total: 6.938900 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.657300 ms MarkObjects: 3.809300 ms  DeleteObjects: 1.909000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5908 unused Assets / (4.2 MB). Loaded Objects now: 6603.
+Memory consumption went from 137.2 MB to 133.0 MB.
+Total: 7.789300 ms (FindLiveObjects: 0.646200 ms CreateObjectMapping: 0.732000 ms MarkObjects: 4.526400 ms  DeleteObjects: 1.883800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5915 unused Assets / (4.2 MB). Loaded Objects now: 6605.
+Memory consumption went from 137.0 MB to 132.7 MB.
+Total: 6.592500 ms (FindLiveObjects: 0.518900 ms CreateObjectMapping: 0.579600 ms MarkObjects: 3.792900 ms  DeleteObjects: 1.700400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 74339.367062 seconds.
+  path: Assets/TrafficLightLogic.cs
+  artifactKey: Guid(7cc13e4c3c29cd54193db06fd4e8bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrafficLightLogic.cs using Guid(7cc13e4c3c29cd54193db06fd4e8bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85e24f9761758c71b69f9e9e790e98c4') in 0.0170406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1116ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (569ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5915 unused Assets / (4.2 MB). Loaded Objects now: 6609.
+Memory consumption went from 139.4 MB to 135.2 MB.
+Total: 7.053200 ms (FindLiveObjects: 0.601700 ms CreateObjectMapping: 0.792600 ms MarkObjects: 3.850500 ms  DeleteObjects: 1.807900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.551 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5915 unused Assets / (4.4 MB). Loaded Objects now: 6611.
+Memory consumption went from 139.4 MB to 135.1 MB.
+Total: 8.650100 ms (FindLiveObjects: 0.918600 ms CreateObjectMapping: 0.701400 ms MarkObjects: 4.645800 ms  DeleteObjects: 2.383400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 1116ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (567ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5915 unused Assets / (3.5 MB). Loaded Objects now: 6613.
+Memory consumption went from 139.5 MB to 136.0 MB.
+Total: 7.327200 ms (FindLiveObjects: 0.615200 ms CreateObjectMapping: 0.615500 ms MarkObjects: 4.510200 ms  DeleteObjects: 1.585400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2894.421100 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96418230ea579c5c87bc6f4f167afd2f') in 0.3317534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_road_2x_crosswalk.fbx
+  artifactKey: Guid(07345c39c6d05b543a21911f0526069d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/tl_straight_road_2x_crosswalk.fbx using Guid(07345c39c6d05b543a21911f0526069d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9214bffea4f54fa089f6e67fb25d4637') in 0.0663012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FastMesh/Materials/Full_White.mat
+  artifactKey: Guid(9baaeb17c4c1fac498e2e0897353314d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Full_White.mat using Guid(9baaeb17c4c1fac498e2e0897353314d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f63cd258e6123e96e1a61f6f3c84c266') in 0.0168383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75254f31eabd2132ac4d864e8842b8d0') in 0.0379312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Textures/road-9.png
+  artifactKey: Guid(bc20e493ebb7b0244bbc3c1c3431d4eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-9.png using Guid(bc20e493ebb7b0244bbc3c1c3431d4eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17440280bd21afecbe022d255e4140a9') in 0.0343629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Materials/Beige.mat
+  artifactKey: Guid(6a8833e57fa7f4e4fa60ed388bfb57e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Beige.mat using Guid(6a8833e57fa7f4e4fa60ed388bfb57e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdf663163789d8c63751cc8995eea36c') in 0.0150722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Traffic Lights System/Scripts/HaloTrafficLight.cs
+  artifactKey: Guid(16f723c55eb9cb242b8c665c06fe8e41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Scripts/HaloTrafficLight.cs using Guid(16f723c55eb9cb242b8c665c06fe8e41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ef96aa739114b5de0e8d05ff57e9490') in 0.0096208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Fast Mesh - Unity Asset Store.url
+  artifactKey: Guid(f04bbdcda1a6c794bb550ae7a421184f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Fast Mesh - Unity Asset Store.url using Guid(f04bbdcda1a6c794bb550ae7a421184f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '397617f4c38345f032d3284d488314ee') in 0.0099087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traffic Lights System/Textures/tl_cross_road_2x_diff.png
+  artifactKey: Guid(02420817836cc7f4da3f85ca250533c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Textures/tl_cross_road_2x_diff.png using Guid(02420817836cc7f4da3f85ca250533c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56a8bb563ad63272e780990773545405') in 0.0181027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Traffic Lights System/Textures/tl_straight_road_2x_diff.png
+  artifactKey: Guid(2e1a9fcc59e8ced49b7bbe672ea3f847) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Textures/tl_straight_road_2x_diff.png using Guid(2e1a9fcc59e8ced49b7bbe672ea3f847) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e77580003440fb73aef22c0e4a51b306') in 0.0125915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Traffic Lights System/Textures/tl_straight_sidewalk_2x_diff.png
+  artifactKey: Guid(9dc8e89051cef8c44993a45bf606d116) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Textures/tl_straight_sidewalk_2x_diff.png using Guid(9dc8e89051cef8c44993a45bf606d116) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00f813019b73dcd06d11923230189d2c') in 0.0138527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Traffic Lights System/Info/README.txt
+  artifactKey: Guid(a43548c6946ee8244ba5223858b316f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Info/README.txt using Guid(a43548c6946ee8244ba5223858b316f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '227d85bc362b27dc7405435f67f347c0') in 0.0080782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Textures/road-1.png
+  artifactKey: Guid(7405a26a45a5a5049999a52d5ed4dc5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-1.png using Guid(7405a26a45a5a5049999a52d5ed4dc5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb96025f732ce91aa9e045ae9d572283') in 0.0186783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Traffic Lights System/Prefabs/HaloTrafficLight.prefab
+  artifactKey: Guid(4a8ac1688bd6df1409bbf833011fb2e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Prefabs/HaloTrafficLight.prefab using Guid(4a8ac1688bd6df1409bbf833011fb2e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d87c4417e8fd2ed3f38009c1c869f57') in 0.0140968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae3be2c8b9849f7e55f1488b06897b58') in 0.0307938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 10.mat
+  artifactKey: Guid(8fc4c882032de894b8d80f449a7dcdfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 10.mat using Guid(8fc4c882032de894b8d80f449a7dcdfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0cb8a275c3f883ae28eb257a7e183e') in 0.0108051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Materials/wood 2.mat
+  artifactKey: Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/wood 2.mat using Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2419cf4c3162838e964f0f9317cd52cb') in 0.011387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Prefabs/Road/LampPost-2.prefab
+  artifactKey: Guid(e862a2795adc9564f92160c9ccf84f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/LampPost-2.prefab using Guid(e862a2795adc9564f92160c9ccf84f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4deb9ee2e39d214c0b4ea656e56ec26') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Prefabs/Road/RoadSigns-2.prefab
+  artifactKey: Guid(3fd738b809e48ae45a577cea6555080e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/RoadSigns-2.prefab using Guid(3fd738b809e48ae45a577cea6555080e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0455c185854207d112340eb8bc4bbff3') in 0.0110435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Prefabs/Road/RoadBollard-3.prefab
+  artifactKey: Guid(e3d1d514935b8c44b9d50eb75b1cccd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/RoadBollard-3.prefab using Guid(e3d1d514935b8c44b9d50eb75b1cccd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b398a83f79a1293a4a61e5419833396') in 0.0113344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Prefabs/Road/ParkingBollard.prefab
+  artifactKey: Guid(84062c9556b3cef4f8aa9a210cba155b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/ParkingBollard.prefab using Guid(84062c9556b3cef4f8aa9a210cba155b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '374dac6fe8eff0673321eb68e1c20626') in 0.0116209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FastMesh/Prefabs/Road/DirectionalSign.prefab
+  artifactKey: Guid(965965124f638dd4dbc21a204a80876a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/DirectionalSign.prefab using Guid(965965124f638dd4dbc21a204a80876a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e3cee5e69e554cd4a08dc10efd12ce7') in 0.0109692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Meshs/Road/TrafficCones.fbx
+  artifactKey: Guid(68b553dab1cbb1f488aaaffc87fe518f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/TrafficCones.fbx using Guid(68b553dab1cbb1f488aaaffc87fe518f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c72919bb2dd3b1813353d57ecc8788a3') in 0.0140892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Prefabs/Road/RoadSigns-1.prefab
+  artifactKey: Guid(aa3aa302614b5ef43b6363676a43bee0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/RoadSigns-1.prefab using Guid(aa3aa302614b5ef43b6363676a43bee0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19949fe13550bf0fad899b75fce06223') in 0.0096639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Traffic Lights System/Models/tl_simple_01.fbx
+  artifactKey: Guid(9153bda7d9e44e142858079ad5a7e66c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/tl_simple_01.fbx using Guid(9153bda7d9e44e142858079ad5a7e66c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74d8ebc4e81a281e5996611e44f40f55') in 0.0168781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Traffic Lights System/Prefabs/TL_StraightRoad2x.prefab
+  artifactKey: Guid(ba5ae08c21bfe144085209a98e24059c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Prefabs/TL_StraightRoad2x.prefab using Guid(ba5ae08c21bfe144085209a98e24059c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fce489c9772bccb6f978aa5fe7b86ab') in 0.0100406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 6.mat
+  artifactKey: Guid(100327afe3a6c6541a5f249ff5f8877d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 6.mat using Guid(100327afe3a6c6541a5f249ff5f8877d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78e725fb678a2f57ea41de947f1b5748') in 0.0122555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Scenes/Scene Road.unity
+  artifactKey: Guid(1c82a8f5d642af641918fbf69b4ee5ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Scenes/Scene Road.unity using Guid(1c82a8f5d642af641918fbf69b4ee5ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4eeea2430431b9b996e7cf44020b6d2') in 0.0108841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Prefabs/Road/LampPost-1.prefab
+  artifactKey: Guid(7aa292b1eb7b05d4c8e8565619505582) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/LampPost-1.prefab using Guid(7aa292b1eb7b05d4c8e8565619505582) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9a08574cc1fec24adf69c4d796661fb') in 0.0102248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Prefabs/Road/RoadBarrier-1.prefab
+  artifactKey: Guid(d4f40363aa44ea649ac792f348b8c36a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/RoadBarrier-1.prefab using Guid(d4f40363aa44ea649ac792f348b8c36a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '078cfd7fa227a545fc3a1cc31ed429a1') in 0.0118412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Traffic Lights System/Prefabs/TL_CrossRoad2x.prefab
+  artifactKey: Guid(1d50b2f9e77a44e4f8f6a683c95b44fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Prefabs/TL_CrossRoad2x.prefab using Guid(1d50b2f9e77a44e4f8f6a683c95b44fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b04b78257705742d81dcfe0dd11ed81') in 0.010687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7568dfc4c4307454cef209ea7a75d4b4') in 0.0288621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Traffic Lights System/Models/Materials/TL_Lights_On.mat
+  artifactKey: Guid(0ab04fff13d1ecc4f82625a094f57220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/Materials/TL_Lights_On.mat using Guid(0ab04fff13d1ecc4f82625a094f57220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf3244387ea732884dfffadc27971f00') in 0.0107733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e570266a88dd565c6e0dd94de6317dd6') in 0.0108348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Traffic Lights System/Models/Materials/TL_Body.mat
+  artifactKey: Guid(4bbc74584f5fcd04e85953cfb71babd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/Materials/TL_Body.mat using Guid(4bbc74584f5fcd04e85953cfb71babd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2185fefd3bc27a73deb93caa161fc9d') in 0.0143734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a9bf64af1750507944bf5277ed2f864') in 0.0093954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Textures/road-3.png
+  artifactKey: Guid(f93f3e1665495164ab671d3e39b674c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-3.png using Guid(f93f3e1665495164ab671d3e39b674c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f0caacab221dd3ac18b4887824b797b') in 0.0164113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Meshs/Road/DirectionalSign.fbx
+  artifactKey: Guid(8d9323d98463a74448f8ec121d420067) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/DirectionalSign.fbx using Guid(8d9323d98463a74448f8ec121d420067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33cd402745f33824acdd6a5563f07a1b') in 0.0142164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Meshs/Road/StreetSign-1.fbx
+  artifactKey: Guid(6ac90a6fd7682764e9c0e8fa5182ad92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/StreetSign-1.fbx using Guid(6ac90a6fd7682764e9c0e8fa5182ad92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e08fd1831b78c87e3860d3d61384df28') in 0.0246649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 3.mat
+  artifactKey: Guid(863471da8c8244341b0bca21f4284991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 3.mat using Guid(863471da8c8244341b0bca21f4284991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a312ef3b37abe8062f43ad706ec09520') in 0.011096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Materials/Yellow.mat
+  artifactKey: Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Yellow.mat using Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fa56e40186bf36031d7d590a805ad70') in 0.0140015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Prefabs/Road/TrafficLight-1.prefab
+  artifactKey: Guid(095d0d7cc0c77704b9c6b439d3826869) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/TrafficLight-1.prefab using Guid(095d0d7cc0c77704b9c6b439d3826869) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '151c04ea528762b03f6d6a81ca243798') in 0.0109325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Materials/Full_Yellow.mat
+  artifactKey: Guid(eeb642b20697c874595465bcb3ee711e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Full_Yellow.mat using Guid(eeb642b20697c874595465bcb3ee711e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '469135916a8e53bb11a1198b63040cf8') in 0.0097341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Textures/road-4.png
+  artifactKey: Guid(a2ac6925ef17a6e4a8d127dd33d84673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-4.png using Guid(a2ac6925ef17a6e4a8d127dd33d84673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '229895a56f4492540a85aac96d82cbcb') in 0.0163377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Meshs/Road/RoadBarrier-1.fbx
+  artifactKey: Guid(0241a729020b77e4484da31c8e56310d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/RoadBarrier-1.fbx using Guid(0241a729020b77e4484da31c8e56310d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbfbbbfd08578d387e903b16fa6e2c16') in 0.0145756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b09c9b3704768a811159c4de54fb01f') in 0.0096235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_road_2x.fbx
+  artifactKey: Guid(c9d4fa23f189b474aa45087be6b07746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/tl_straight_road_2x.fbx using Guid(c9d4fa23f189b474aa45087be6b07746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73cf76658e65aa7d0e374fcd159c2021') in 0.0288756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Textures/road-8.png
+  artifactKey: Guid(3669b58668ffb2944b7f0ccd7a49a09f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-8.png using Guid(3669b58668ffb2944b7f0ccd7a49a09f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '192df295a635521731cd43fb8bb500de') in 0.0176803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Materials/Red 1.mat
+  artifactKey: Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Red 1.mat using Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c86bce213cae95e30387ebc773d2e093') in 0.0108794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Prefabs/Road/SpeedBump.prefab
+  artifactKey: Guid(d5d94a87bf91ec842aeb8faa43a7ec9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/SpeedBump.prefab using Guid(d5d94a87bf91ec842aeb8faa43a7ec9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3be0d745e8ce438786da04801722767c') in 0.0129296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traffic Lights System/Demo/Scenes/Demo.unity
+  artifactKey: Guid(a167113aad48c49498d5b6695f3efffe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Demo/Scenes/Demo.unity using Guid(a167113aad48c49498d5b6695f3efffe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88e186ba6cca300a7e2d3d613e4f4335') in 0.0132984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Traffic Lights System/Materials/tl_cross_road_2x_diff.mat
+  artifactKey: Guid(c40e4ec2f3fd37c4a880d36022e0ea7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Materials/tl_cross_road_2x_diff.mat using Guid(c40e4ec2f3fd37c4a880d36022e0ea7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a661156111346d1d7c1f0a7b8785db5a') in 0.0200986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Materials/Full_Red.mat
+  artifactKey: Guid(a722da4df1a732e48939d57a0e63a1a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Full_Red.mat using Guid(a722da4df1a732e48939d57a0e63a1a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b6e837f0e774c17f6f4987e83c4cd02') in 0.0109238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Prefabs/Road/ManholeCover.prefab
+  artifactKey: Guid(5477dc01225ea3847957b7de03880b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/ManholeCover.prefab using Guid(5477dc01225ea3847957b7de03880b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd85ee2ce6f7589d3b4d8b2c6270e19f5') in 0.0130196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 4b.mat
+  artifactKey: Guid(bd72573cd3ee55545a3cdfa5a0acf15f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 4b.mat using Guid(bd72573cd3ee55545a3cdfa5a0acf15f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6a3821187b069e006269bc8e3b98557') in 0.0124229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FastMesh/Prefabs/Road/TrafficCameras.prefab
+  artifactKey: Guid(48e46d420090e594999eb1d49cfe7a41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/TrafficCameras.prefab using Guid(48e46d420090e594999eb1d49cfe7a41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb3eb9f7c133bfe941b1778b665c2e36') in 0.0130917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Meshs/Road/LampPost-2.fbx
+  artifactKey: Guid(089327f1142fbda48b28980c6bc942c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/LampPost-2.fbx using Guid(089327f1142fbda48b28980c6bc942c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c569e0414fbb16f7c6e5f51e7930b407') in 0.0252525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Traffic Lights System/Textures/tl_simple_body_diff.png
+  artifactKey: Guid(c8231b21d9c615940ac1f3e7ff193ac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Textures/tl_simple_body_diff.png using Guid(c8231b21d9c615940ac1f3e7ff193ac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b897f193e0cfcb227fd4e9f6628c1c9') in 0.0172238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Textures/road-10.png
+  artifactKey: Guid(a5fbda7073f30f4429945dbd00a14d6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-10.png using Guid(a5fbda7073f30f4429945dbd00a14d6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83e88598ca83c1126309d9b9c60c1205') in 0.0179808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Materials/Orange.mat
+  artifactKey: Guid(d239c9c3cf3cf6f4ea1ab54cf09bf36f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Orange.mat using Guid(d239c9c3cf3cf6f4ea1ab54cf09bf36f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe9fa5e2f0cb60730c39ac240293b8bc') in 0.012048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Scripts/SceneViewText.cs
+  artifactKey: Guid(9549876df73b7e04bac73492fd5b95c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Scripts/SceneViewText.cs using Guid(9549876df73b7e04bac73492fd5b95c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '148b1241a360d2b7c923cbf9454057d3') in 0.0115671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Prefabs/Road/RoadBarrier-2.prefab
+  artifactKey: Guid(bd54396f614833c4aac609531580219e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Prefabs/Road/RoadBarrier-2.prefab using Guid(bd54396f614833c4aac609531580219e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7d49dbdc9ac279ef54b0c5c831e9217') in 0.0138931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Meshs/Road/ParkingBollard.fbx
+  artifactKey: Guid(21cec24343175944199bd1fa9e52dc73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/ParkingBollard.fbx using Guid(21cec24343175944199bd1fa9e52dc73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32fd0c4cd4054146d4cb2a8e93c91169') in 0.0198766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Meshs/Road/RoadBollard-3.fbx
+  artifactKey: Guid(f967f49ebc6f20747a2930796cd68893) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/RoadBollard-3.fbx using Guid(f967f49ebc6f20747a2930796cd68893) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a71c23407f69f6789d2f2861c868d754') in 0.0158214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Materials/Beige 1.mat
+  artifactKey: Guid(a8c33543fc2059e4ba389a887e077ea5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/Beige 1.mat using Guid(a8c33543fc2059e4ba389a887e077ea5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '270e5da72e338cdd13d7545b08045091') in 0.0123317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b8917c4ce5bd40ba79c06beaca4ed4e') in 0.0096802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 8.mat
+  artifactKey: Guid(42367518653fcaa4c808322da2982deb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 8.mat using Guid(42367518653fcaa4c808322da2982deb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0233e3c76f42f0a81cdafb5b5dbd2423') in 0.0119389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FastMesh/Meshs/Road/SpeedBump.fbx
+  artifactKey: Guid(be9b112dbd8a0d241ac4b804016e1a9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/SpeedBump.fbx using Guid(be9b112dbd8a0d241ac4b804016e1a9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '774c3508489641e7fd03ae06fc856858') in 0.0140833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TrafficLightLogic.cs
+  artifactKey: Guid(7cc13e4c3c29cd54193db06fd4e8bb71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TrafficLightLogic.cs using Guid(7cc13e4c3c29cd54193db06fd4e8bb71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f64512d969dc6e54a61396a80678ae86') in 0.0094027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Traffic Lights System/Models/tl_cross_sidewalk_2x.fbx
+  artifactKey: Guid(e6c915fa255192248a98f0eb1e4fac3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/tl_cross_sidewalk_2x.fbx using Guid(e6c915fa255192248a98f0eb1e4fac3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd9002b25a2a5faf87ba620bd656a1fc') in 0.0201162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Materials/IconRoad 5b.mat
+  artifactKey: Guid(b16987309a1452e4ab055a5603d761dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Materials/IconRoad 5b.mat using Guid(b16987309a1452e4ab055a5603d761dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8948a2d63806cfb5dfd692c026aea8f2') in 0.0115666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Textures/road-11.png
+  artifactKey: Guid(1e6a7b6efacb4b544ab60e867c7a57aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Textures/road-11.png using Guid(1e6a7b6efacb4b544ab60e867c7a57aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d3a48a45aafb0fefb689ecde49f6750') in 0.0151028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FastMesh/Meshs/Road/TrafficCameras.fbx
+  artifactKey: Guid(633bb669b4365eb44bcaf14610196dbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FastMesh/Meshs/Road/TrafficCameras.fbx using Guid(633bb669b4365eb44bcaf14610196dbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ef29479ed756bda662da1394ed267c7') in 0.0166581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Traffic Lights System/Scripts/TrafficLightBase.cs
+  artifactKey: Guid(c61958fc0a6d3534aa4bc101f36925cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Scripts/TrafficLightBase.cs using Guid(c61958fc0a6d3534aa4bc101f36925cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da6fd1b547c91c86bf3b5f6dc5b7469c') in 0.0103873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Traffic Lights System/Models/Materials/TL_CrossRoad.mat
+  artifactKey: Guid(e188fb6dbe04fab4f9d72ef14e5aabda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Traffic Lights System/Models/Materials/TL_CrossRoad.mat using Guid(e188fb6dbe04fab4f9d72ef14e5aabda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b14ed561a986518624f0a56f3c15cfcf') in 0.0128371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.136328 seconds.
+  path: Assets/Traffic Lights System/Materials/tl_cross_road_2x_diff.mat
+  artifactKey: Guid(c40e4ec2f3fd37c4a880d36022e0ea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Materials/tl_cross_road_2x_diff.mat using Guid(c40e4ec2f3fd37c4a880d36022e0ea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f0b07ce091c862a0ac8671e3d45b0f6') in 0.3667074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.387975 seconds.
+  path: Assets/Traffic Lights System/Models/tl_cross_sidewalk_2x.fbx
+  artifactKey: Guid(e6c915fa255192248a98f0eb1e4fac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_cross_sidewalk_2x.fbx using Guid(e6c915fa255192248a98f0eb1e4fac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f39e2ccaa0f125dfc3e450a7fb3a9b42') in 0.0462009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x.fbx
+  artifactKey: Guid(a27d0d4027c2f46449c16f337a3b6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x.fbx using Guid(a27d0d4027c2f46449c16f337a3b6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4c1cabc38e741becfb0215722b6658c') in 0.0114758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x_crosswalk.fbx
+  artifactKey: Guid(17a040e8fb3497f4daaa39cd377bedf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_straight_sidewalk_2x_crosswalk.fbx using Guid(17a040e8fb3497f4daaa39cd377bedf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1841e519539315f623dc91418a52d7cb') in 0.0148539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Traffic Lights System/Models/tl_straight_road_2x.fbx
+  artifactKey: Guid(c9d4fa23f189b474aa45087be6b07746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights System/Models/tl_straight_road_2x.fbx using Guid(c9d4fa23f189b474aa45087be6b07746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd595d933aa7d7818383d07c04e360fea') in 0.0149376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
